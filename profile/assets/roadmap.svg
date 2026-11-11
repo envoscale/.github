@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-labelledby="t d">
+<title id="t">EnvoScale roadmap progress</title>
+<desc id="d">Milestones M0 to M13. M0 and M1 are done; M2 (Stage 1) is in progress with 7 of 11 increments done.</desc>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.bar{transform:scaleX(1);transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.7,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}.shine{animation:shine 2.4s linear infinite}@keyframes shine{from{transform:translateX(-60px)}to{transform:translateX(120px)}}.here{animation:bob 1.6s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="card"><rect width="840" height="190" rx="12"/></clipPath></defs>
+<g clip-path="url(#card)">
+<rect width="840" height="190" fill="#0d1117"/>
+<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">Roadmap</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">M2 · Stage 1: 7 of 11 increments done · next: generics and interfaces</text>
+<defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect x="28.00" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.0s" x="28.00" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="53.21" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M0</text><text class="s" x="53.21" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Charter</text>
+<rect x="84.43" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.25s" x="84.43" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="109.64" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M1</text><text class="s" x="109.64" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Stage 0</text>
+<rect x="140.86" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<clipPath id="m2c"><rect x="140.86" y="92" width="32.09" height="12" rx="6"/></clipPath><g clip-path="url(#m2c)"><rect class="bar" style="animation-delay:.5s" x="140.86" y="92" width="32.09" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="100.86" y="92" width="40" height="12" fill="url(#sh)"/></g>
+<g class="here"><path d="M172.95 86 l-6 -9 h12 z" fill="#58a6ff"/></g><text class="s" x="172.95" y="72" font-size="11" fill="#58a6ff" text-anchor="middle">now</text>
+<text class="m" x="166.07" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M2</text><text class="s" x="166.07" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Stage 1</text>
+<rect x="197.29" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="222.50" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M3</text><text class="s" x="222.50" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Self-host</text>
+<rect x="253.71" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="278.93" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M4</text><text class="s" x="278.93" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Std</text>
+<rect x="310.14" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="335.36" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M5</text><text class="s" x="335.36" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Tooling</text>
+<rect x="366.57" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="391.79" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M6</text><text class="s" x="391.79" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Script</text>
+<rect x="423.00" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="448.21" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M7</text><text class="s" x="448.21" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Net</text>
+<rect x="479.43" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="504.64" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M8</text><text class="s" x="504.64" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">UI</text>
+<rect x="535.86" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="561.07" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M9</text><text class="s" x="561.07" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Web</text>
+<rect x="592.29" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="617.50" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M10</text><text class="s" x="617.50" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">ARM/mac</text>
+<rect x="648.71" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="673.93" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M11</text><text class="s" x="673.93" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">3D</text>
+<rect x="705.14" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="730.36" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M12</text><text class="s" x="730.36" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">AI</text>
+<rect x="761.57" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
+<text class="m" x="786.79" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M13</text><text class="s" x="786.79" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Ecosystem</text>
+<text class="s" x="28" y="174" font-size="12" fill="#8b949e"><tspan fill="#0a7aeb">■</tspan> done   <tspan fill="#58a6ff">■</tspan> in progress   <tspan fill="#21262d">■</tspan> planned</text>
+</g>
+<rect x="0.5" y="0.5" width="839" height="189" rx="12" fill="none" stroke="#30363d"/>
+</svg>

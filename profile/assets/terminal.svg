@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="330" viewBox="0 0 840 330" role="img" aria-labelledby="t d">
+<title id="t">envoc0 compiling Hello World</title>
+<desc id="d">A terminal types: cat hello.envo, which prints print(&quot;Hello, World!&quot;); envoc0 build hello.envo -o hello --target x86_64-linux; ls -l hello, which shows 1277 bytes; ./hello, which prints Hello, World!</desc>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.all{animation:fade 14.0s linear infinite}@keyframes fade{0%,95%{opacity:1}98.571%,100%{opacity:0}}
+.c0{transform:translateX(144px);animation:c0 14.0s linear infinite}@keyframes c0{0%{transform:translateX(0);animation-timing-function:step-end}1.429%{transform:translateX(18px)}3.571%{transform:translateX(18px);animation-timing-function:steps(14,end)}10%,100%{transform:translateX(144px)}}
+.c0c{opacity:0;animation:c0c 14.0s step-end infinite}@keyframes c0c{0%{opacity:0}1.429%{opacity:1}10.714%,100%{opacity:0}}
+.o1{animation:o1 14.0s step-end infinite}@keyframes o1{0%{opacity:0}12.857%,100%{opacity:1}}
+.c2{transform:translateX(504px);animation:c2 14.0s linear infinite}@keyframes c2{0%{transform:translateX(0);animation-timing-function:step-end}16.429%{transform:translateX(18px)}18.571%{transform:translateX(18px);animation-timing-function:steps(54,end)}35%,100%{transform:translateX(504px)}}
+.c2c{opacity:0;animation:c2c 14.0s step-end infinite}@keyframes c2c{0%{opacity:0}16.429%{opacity:1}37.143%,100%{opacity:0}}
+.c3{transform:translateX(117px);animation:c3 14.0s linear infinite}@keyframes c3{0%{transform:translateX(0);animation-timing-function:step-end}37.143%{transform:translateX(18px)}39.286%{transform:translateX(18px);animation-timing-function:steps(11,end)}45%,100%{transform:translateX(117px)}}
+.c3c{opacity:0;animation:c3c 14.0s step-end infinite}@keyframes c3c{0%{opacity:0}37.143%{opacity:1}45.714%,100%{opacity:0}}
+.o4{animation:o4 14.0s step-end infinite}@keyframes o4{0%{opacity:0}47.857%,100%{opacity:1}}
+.c5{transform:translateX(81px);animation:c5 14.0s linear infinite}@keyframes c5{0%{transform:translateX(0);animation-timing-function:step-end}50%{transform:translateX(18px)}52.143%{transform:translateX(18px);animation-timing-function:steps(7,end)}55.714%,100%{transform:translateX(81px)}}
+.c5c{opacity:0;animation:c5c 14.0s step-end infinite}@keyframes c5c{0%{opacity:0}50%{opacity:1}56.429%,100%{opacity:0}}
+.o6{animation:o6 14.0s step-end infinite}@keyframes o6{0%{opacity:0}58.571%,100%{opacity:1}}
+.o7{animation:o7 14.0s step-end infinite}@keyframes o7{0%{opacity:0}62.143%,100%{opacity:1}}
+.blink{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
+.cap{animation:cap 14.0s linear infinite}@keyframes cap{0%,65.714%{opacity:0;transform:translateY(6px)}69.286%,100%{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="card"><rect width="840" height="330" rx="12"/></clipPath></defs>
+<g clip-path="url(#card)">
+<rect width="840" height="330" fill="#0d1117"/>
+<rect width="840" height="40" fill="#161b22"/><line x1="0" y1="40.5" x2="840" y2="40.5" stroke="#30363d"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+<circle cx="44" cy="20" r="6" fill="#febc2e"/>
+<circle cx="64" cy="20" r="6" fill="#28c840"/>
+<text class="s" x="420.0" y="25" font-size="13" fill="#8b949e" text-anchor="middle">envoc0: Stage 0, the compiler written in assembly</text>
+<g class="all">
+<text class="m" x="28" y="74" font-size="15" textLength="144" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">cat hello.envo</tspan></text>
+<g class="c0"><rect x="28" y="56" width="840" height="26" fill="#0d1117"/><rect class="c0c" x="28" y="59" width="9" height="19" fill="#58a6ff"/></g>
+<text class="m o1" x="28" y="101" font-size="15" textLength="198" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#d2a8ff">print</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#a5d6ff">&quot;Hello, World!&quot;</tspan><tspan fill="#e6edf3">)</tspan></text>
+<text class="m" x="28" y="128" font-size="15" textLength="504" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">envoc0 build hello.envo -o hello --target x86_64-linux</tspan></text>
+<g class="c2"><rect x="28" y="110" width="840" height="26" fill="#0d1117"/><rect class="c2c" x="28" y="113" width="9" height="19" fill="#58a6ff"/></g>
+<text class="m" x="28" y="155" font-size="15" textLength="117" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">ls -l hello</tspan></text>
+<g class="c3"><rect x="28" y="137" width="840" height="26" fill="#0d1117"/><rect class="c3c" x="28" y="140" width="9" height="19" fill="#58a6ff"/></g>
+<text class="m o4" x="28" y="182" font-size="15" textLength="315" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">-rwxr-xr-x  1 dev  dev  </tspan><tspan fill="#ffa657">1277</tspan><tspan fill="#8b949e">  hello</tspan></text>
+<text class="m" x="28" y="209" font-size="15" textLength="81" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">./hello</tspan></text>
+<g class="c5"><rect x="28" y="191" width="840" height="26" fill="#0d1117"/><rect class="c5c" x="28" y="194" width="9" height="19" fill="#58a6ff"/></g>
+<text class="m o6" x="28" y="236" font-size="15" textLength="117" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#3fb950">Hello, World!</tspan></text>
+<text class="m o7" x="28" y="263" font-size="15" textLength="18" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan></text>
+<g class="o7"><rect class="blink" x="46.0" y="248" width="9" height="19" fill="#58a6ff"/></g>
+<g class="cap"><line x1="28" y1="284" x2="812" y2="284" stroke="#30363d"/><text class="s" x="28" y="310" font-size="13" fill="#8b949e"><tspan fill="#ffa657" font-weight="600">1,277 bytes</tspan> of ELF · no libc · no linker · built by a compiler written in <tspan fill="#e6edf3" font-weight="600">15k lines of x86-64 assembly</tspan></text></g>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="839" height="329" rx="12" fill="none" stroke="#30363d"/>
+</svg>
