@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="../envoscale_logo.jpg" alt="EnvoScale" width="440">
-
 ### One environment, every platform, every skill level, built from the first byte up.
 
 One language (**Envo**), one toolchain (`envo`) and one standard platform (`envo.*`)
 for systems code, scripts, desktop apps, websites, terminals, graphics, AI, cryptography and networking.
 No third-party dependencies. The compiler is bootstrapped from assembly, so the whole chain can be audited.
 
-[**Discord**](https://discord.gg/fzfArKeZaG) · [**Roadmap**](https://github.com/orgs/envoscale/projects/3)
+<a href="https://discord.gg/fzfArKeZaG"><img src="assets/button-discord.svg" alt="Join the Discord" height="56"></a>
+&nbsp;
+<a href="https://github.com/orgs/envoscale/projects/3"><img src="assets/button-roadmap.svg" alt="View the Roadmap" height="56"></a>
 
 </div>
 
