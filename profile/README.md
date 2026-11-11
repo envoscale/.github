@@ -71,5 +71,3 @@ The project is early and moving fast. Progress is tracked in the open on the
 EnvoScale is free for personal, educational, research and other noncommercial use under the
 [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 Commercial use requires an EnvoScale commercial license.
-
-<sub>The animations on this page are plain SVG and CSS with no scripts or external resources, and they respect your reduced-motion setting.</sub>
