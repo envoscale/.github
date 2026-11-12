@@ -1,29 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-labelledby="t d">
 <title id="t">The EnvoScale bootstrap ladder</title>
-<desc id="d">Seed (NASM today, a hex seed in M13), then Stage 0 envoc0 in x86-64 assembly (done), Stage 1 envoc1 in Envo-Core (done), Stage 2 envoc in Envo-S1 (in progress, M3), and the fixed point where envoc built twice gives byte-identical output (planned, M3).</desc>
+<desc id="d">A hex seed (asm0) builds Stage 0, envoc0, written in x86-64 assembly; it builds Stage 1, envoc1, in Envo-Core; that builds Stage 2, envoc, in Envo-S1, which builds itself to a fixed point. All done.</desc>
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
 .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
-.g0{opacity:0;animation:g0 7.0s ease-out infinite}@keyframes g0{0%,0%{opacity:0}2.143%{opacity:.9}17.143%,100%{opacity:0}}
-.p0{opacity:0;animation:p0 7.0s ease-in-out infinite}@keyframes p0{0%,2.857%{opacity:0;transform:translateX(0)}4.286%{opacity:1}13.571%{opacity:1;transform:translateX(19px)}15%,100%{opacity:0;transform:translateX(19px)}}
-.g1{opacity:0;animation:g1 7.0s ease-out infinite}@keyframes g1{0%,14.286%{opacity:0}16.429%{opacity:.9}31.429%,100%{opacity:0}}
-.p1{opacity:0;animation:p1 7.0s ease-in-out infinite}@keyframes p1{0%,17.143%{opacity:0;transform:translateX(0)}18.571%{opacity:1}27.857%{opacity:1;transform:translateX(19px)}29.286%,100%{opacity:0;transform:translateX(19px)}}
-.g2{opacity:0;animation:g2 7.0s ease-out infinite}@keyframes g2{0%,28.571%{opacity:0}30.714%{opacity:.9}45.714%,100%{opacity:0}}
-.p2{opacity:0;animation:p2 7.0s ease-in-out infinite}@keyframes p2{0%,31.429%{opacity:0;transform:translateX(0)}32.857%{opacity:1}42.143%{opacity:1;transform:translateX(19px)}43.571%,100%{opacity:0;transform:translateX(19px)}}
-.g3{opacity:0;animation:g3 7.0s ease-out infinite}@keyframes g3{0%,42.857%{opacity:0}45%{opacity:.9}60%,100%{opacity:0}}
-.pulse{animation:pulse 1.6s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}
+.g0{opacity:0;animation:g0 8.0s ease-out infinite}@keyframes g0{0%,0%{opacity:0}1.875%{opacity:.9}15%,100%{opacity:0}}
+.p0{opacity:0;animation:p0 8.0s ease-in-out infinite}@keyframes p0{0%,2.5%{opacity:0;transform:translateX(0)}3.75%{opacity:1}11.875%{opacity:1;transform:translateX(19px)}13.125%,100%{opacity:0;transform:translateX(19px)}}
+.g1{opacity:0;animation:g1 8.0s ease-out infinite}@keyframes g1{0%,12.5%{opacity:0}14.375%{opacity:.9}27.5%,100%{opacity:0}}
+.p1{opacity:0;animation:p1 8.0s ease-in-out infinite}@keyframes p1{0%,15%{opacity:0;transform:translateX(0)}16.25%{opacity:1}24.375%{opacity:1;transform:translateX(19px)}25.625%,100%{opacity:0;transform:translateX(19px)}}
+.g2{opacity:0;animation:g2 8.0s ease-out infinite}@keyframes g2{0%,25%{opacity:0}26.875%{opacity:.9}40%,100%{opacity:0}}
+.p2{opacity:0;animation:p2 8.0s ease-in-out infinite}@keyframes p2{0%,27.5%{opacity:0;transform:translateX(0)}28.75%{opacity:1}36.875%{opacity:1;transform:translateX(19px)}38.125%,100%{opacity:0;transform:translateX(19px)}}
+.g3{opacity:0;animation:g3 8.0s ease-out infinite}@keyframes g3{0%,37.5%{opacity:0}39.375%{opacity:.9}52.5%,100%{opacity:0}}
+.p3{opacity:0;animation:p3 8.0s ease-in-out infinite}@keyframes p3{0%,40%{opacity:0;transform:translateX(0)}41.25%{opacity:1}49.375%{opacity:1;transform:translateX(19px)}50.625%,100%{opacity:0;transform:translateX(19px)}}
+.g4{opacity:0;animation:g4 8.0s ease-out infinite}@keyframes g4{0%,50%{opacity:0}51.875%{opacity:.9}65%,100%{opacity:0}}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
 <defs><clipPath id="card"><rect width="840" height="300" rx="12"/></clipPath></defs>
 <g clip-path="url(#card)">
 <rect width="840" height="300" fill="#0d1117"/>
-<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">The bootstrap ladder</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">each compiler is built, from source, by the one before it</text>
+<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">Built from the first byte</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">each compiler is built, from source, by the one before it</text>
 <rect x="18.0" y="92" width="136" height="104" rx="10" fill="#0b2440" stroke="#0a7aeb" stroke-width="1.5"/>
 <rect class="g0" x="15.0" y="89" width="142" height="110" rx="12" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
-<text class="s" x="86.0" y="122" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Seed</text>
-<text class="m" x="86.0" y="148" font-size="13" fill="#58a6ff" text-anchor="middle">NASM today</text>
-<text class="s" x="86.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">hex seed · M13</text>
-<g><rect x="56.0" y="214" width="60" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="86.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text></g>
+<text class="s" x="86.0" y="122" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Hex seed</text>
+<text class="m" x="86.0" y="148" font-size="13" fill="#58a6ff" text-anchor="middle">asm0</text>
+<text class="s" x="86.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">commented hex</text>
+<rect x="56.3" y="214" width="59.4" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="86.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text>
 <line x1="158.0" y1="144.0" x2="176.0" y2="144.0" stroke="#58a6ff" stroke-width="2"/><path d="M175.0 139.0 L181.0 144.0 L175.0 149.0 Z" fill="#58a6ff"/>
 <circle class="p0" cx="158.0" cy="144.0" r="4" fill="#e6edf3"/>
 <rect x="185.0" y="92" width="136" height="104" rx="10" fill="#0b2440" stroke="#0a7aeb" stroke-width="1.5"/>
@@ -31,7 +32,7 @@
 <text class="s" x="253.0" y="122" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Stage 0</text>
 <text class="m" x="253.0" y="148" font-size="13" fill="#58a6ff" text-anchor="middle">envoc0</text>
 <text class="s" x="253.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">x86-64 assembly</text>
-<g><rect x="223.0" y="214" width="60" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="253.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text></g>
+<rect x="223.3" y="214" width="59.4" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="253.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text>
 <line x1="325.0" y1="144.0" x2="343.0" y2="144.0" stroke="#58a6ff" stroke-width="2"/><path d="M342.0 139.0 L348.0 144.0 L342.0 149.0 Z" fill="#58a6ff"/>
 <circle class="p1" cx="325.0" cy="144.0" r="4" fill="#e6edf3"/>
 <rect x="352.0" y="92" width="136" height="104" rx="10" fill="#0b2440" stroke="#0a7aeb" stroke-width="1.5"/>
@@ -39,23 +40,25 @@
 <text class="s" x="420.0" y="122" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Stage 1</text>
 <text class="m" x="420.0" y="148" font-size="13" fill="#58a6ff" text-anchor="middle">envoc1</text>
 <text class="s" x="420.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">Envo-Core</text>
-<g><rect x="390.0" y="214" width="60" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="420.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text></g>
+<rect x="390.3" y="214" width="59.4" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="420.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text>
 <line x1="492.0" y1="144.0" x2="510.0" y2="144.0" stroke="#58a6ff" stroke-width="2"/><path d="M509.0 139.0 L515.0 144.0 L509.0 149.0 Z" fill="#58a6ff"/>
 <circle class="p2" cx="492.0" cy="144.0" r="4" fill="#e6edf3"/>
-<rect x="519.0" y="92" width="136" height="104" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+<rect x="519.0" y="92" width="136" height="104" rx="10" fill="#0b2440" stroke="#0a7aeb" stroke-width="1.5"/>
 <rect class="g3" x="516.0" y="89" width="142" height="110" rx="12" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
 <text class="s" x="587.0" y="122" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Stage 2</text>
 <text class="m" x="587.0" y="148" font-size="13" fill="#58a6ff" text-anchor="middle">envoc</text>
 <text class="s" x="587.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">Envo-S1</text>
-<g class="pulse"><rect x="532.5" y="214" width="109" height="22" rx="11" fill="#0b2440" stroke="#0a7aeb"/><text class="s" x="587.0" y="229" font-size="12" fill="#58a6ff" text-anchor="middle">● in progress</text></g>
-<line x1="659.0" y1="144.0" x2="677.0" y2="144.0" stroke="#484f58" stroke-width="2" stroke-dasharray="3 3"/><path d="M676.0 139.0 L682.0 144.0 L676.0 149.0 Z" fill="#484f58"/>
-<rect x="686.0" y="92" width="136" height="104" rx="10" fill="#161b22" stroke="#484f58" stroke-width="1.5" stroke-dasharray="5 4"/>
-<text class="s" x="754.0" y="122" font-size="15" font-weight="600" fill="#8b949e" text-anchor="middle">Fixed point</text>
-<text class="m" x="754.0" y="148" font-size="13" fill="#8b949e" text-anchor="middle">A == B</text>
-<text class="s" x="754.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">byte-identical</text>
-<g><rect x="703.0" y="214" width="102" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text class="s" x="754.0" y="229" font-size="12" fill="#8b949e" text-anchor="middle">planned · M3</text></g>
-<path d="M587.0 88 C587.0 58,754.0 58,754.0 84" fill="none" stroke="#484f58" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M749.0 79 L754.0 87 L759.0 79" fill="none" stroke="#484f58" stroke-width="1.5"/><text class="s" x="670.5" y="62" font-size="11" fill="#8b949e" text-anchor="middle">envoc builds envoc, twice</text>
-<text class="s" x="28" y="278" font-size="13" fill="#8b949e">CI rebuilds the ladder on Windows and Linux and checks that both hosts produce <tspan fill="#e6edf3">the same bytes</tspan>.</text>
+<rect x="557.3" y="214" width="59.4" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="587.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text>
+<line x1="659.0" y1="144.0" x2="677.0" y2="144.0" stroke="#58a6ff" stroke-width="2"/><path d="M676.0 139.0 L682.0 144.0 L676.0 149.0 Z" fill="#58a6ff"/>
+<circle class="p3" cx="659.0" cy="144.0" r="4" fill="#e6edf3"/>
+<rect x="686.0" y="92" width="136" height="104" rx="10" fill="#0b2440" stroke="#0a7aeb" stroke-width="1.5"/>
+<rect class="g4" x="683.0" y="89" width="142" height="110" rx="12" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
+<text class="s" x="754.0" y="122" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Fixed point</text>
+<text class="m" x="754.0" y="148" font-size="13" fill="#58a6ff" text-anchor="middle">A == B</text>
+<text class="s" x="754.0" y="172" font-size="12" fill="#8b949e" text-anchor="middle">builds itself</text>
+<rect x="724.3" y="214" width="59.4" height="22" rx="11" fill="#0f2d1a" stroke="#238636"/><text class="s" x="754.0" y="229" font-size="12" fill="#3fb950" text-anchor="middle">✓ done</text>
+<path d="M587.0 88 C587.0 58,754.0 58,754.0 84" fill="none" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M749.0 79 L754.0 87 L759.0 79" fill="none" stroke="#58a6ff" stroke-width="1.5"/><text class="s" x="670.5" y="62" font-size="11" fill="#8b949e" text-anchor="middle">envoc builds envoc, twice: same bytes</text>
+<text class="s" x="28" y="278" font-size="13" fill="#8b949e">The seed is hex you can read. CI checks that Windows and Linux build <tspan fill="#e6edf3">the same bytes</tspan> at every stage.</text>
 </g>
 <rect x="0.5" y="0.5" width="839" height="299" rx="12" fill="none" stroke="#30363d"/>
 </svg>
