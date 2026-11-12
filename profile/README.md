@@ -58,9 +58,9 @@ today. The others are the target, and each lights up when its milestone lands.
 
 | | |
 |---|---|
-| **Done** | **M0** charter, specs and skeleton · **M1** Stage 0 (`envoc0`, about 15k lines of assembly), which compiles Envo-Core on Windows and Linux with byte-identical builds on every host |
-| **Now** | **M2** Stage 1 (`envoc1`, about 11k lines of Envo-Core): lexer, parser, checker, EIR, backend and runtime all work; generics, interfaces, closures and the borrow checker come next |
-| **Next** | **M3** self-hosting and the fixed point · **M4–M6** standard library, `envo` CLI and script runtime · **M7–M9** crypto, networking, UI and web · **M10–M13** AArch64 and macOS, 3D, AI and the ecosystem |
+| **Done** | **M0** charter, specs and skeleton · **M1** Stage 0 (`envoc0`, about 15k lines of assembly), which compiles Envo-Core on Windows and Linux with byte-identical builds on every host · **M2** Stage 1 (`envoc1`, about 17k lines of Envo-Core), which compiles Envo-S1: generics, interfaces, closures, ownership and borrow checking, enums with payloads, Option and Result, views, collections and namespaces |
+| **Now** | **M3** Stage 2 (`envoc`, written in Envo-S1), the compiler that compiles itself, and the fixed point |
+| **Next** | **M4–M6** standard library, `envo` CLI and script runtime · **M7–M9** crypto, networking, UI and web · **M10–M13** AArch64 and macOS, 3D, AI and the ecosystem |
 
 The project is early and moving fast. Progress is tracked in the open on the
 [roadmap](https://github.com/orgs/envoscale/projects/3), and you can chat with us on

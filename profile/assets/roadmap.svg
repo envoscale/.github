@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-labelledby="t d">
 <title id="t">EnvoScale roadmap progress</title>
-<desc id="d">Milestones M0 to M13. M0 and M1 are done; M2 (Stage 1) is in progress with 7 of 11 increments done.</desc>
+<desc id="d">Milestones M0 to M13. M0, M1 and M2 are done; M3 (self-hosting) has started.</desc>
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
 .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
@@ -10,7 +10,7 @@
 <defs><clipPath id="card"><rect width="840" height="190" rx="12"/></clipPath></defs>
 <g clip-path="url(#card)">
 <rect width="840" height="190" fill="#0d1117"/>
-<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">Roadmap</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">M2 · Stage 1: 7 of 11 increments done · next: generics and interfaces</text>
+<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">Roadmap</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">M0–M2 done · now: M3, the compiler that compiles itself</text>
 <defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
 <rect x="28.00" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
 <rect class="bar" style="animation-delay:0.0s" x="28.00" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
@@ -19,11 +19,12 @@
 <rect class="bar" style="animation-delay:0.25s" x="84.43" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
 <text class="m" x="109.64" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M1</text><text class="s" x="109.64" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Stage 0</text>
 <rect x="140.86" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<clipPath id="m2c"><rect x="140.86" y="92" width="32.09" height="12" rx="6"/></clipPath><g clip-path="url(#m2c)"><rect class="bar" style="animation-delay:.5s" x="140.86" y="92" width="32.09" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="100.86" y="92" width="40" height="12" fill="url(#sh)"/></g>
-<g class="here"><path d="M172.95 86 l-6 -9 h12 z" fill="#58a6ff"/></g><text class="s" x="172.95" y="72" font-size="11" fill="#58a6ff" text-anchor="middle">now</text>
+<rect class="bar" style="animation-delay:0.5s" x="140.86" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
 <text class="m" x="166.07" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M2</text><text class="s" x="166.07" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Stage 1</text>
 <rect x="197.29" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<text class="m" x="222.50" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M3</text><text class="s" x="222.50" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Self-host</text>
+<clipPath id="m2c"><rect x="197.29" y="92" width="3.03" height="12" rx="6"/></clipPath><g clip-path="url(#m2c)"><rect class="bar" style="animation-delay:.75s" x="197.29" y="92" width="3.03" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="157.29" y="92" width="40" height="12" fill="url(#sh)"/></g>
+<g class="here"><path d="M200.31 86 l-6 -9 h12 z" fill="#58a6ff"/></g><text class="s" x="200.31" y="72" font-size="11" fill="#58a6ff" text-anchor="middle">now</text>
+<text class="m" x="222.50" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M3</text><text class="s" x="222.50" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Self-host</text>
 <rect x="253.71" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
 <text class="m" x="278.93" y="126" font-size="12" font-weight="600" fill="#8b949e" text-anchor="middle">M4</text><text class="s" x="278.93" y="144" font-size="10.5" fill="#484f58" text-anchor="middle">Std</text>
 <rect x="310.14" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
