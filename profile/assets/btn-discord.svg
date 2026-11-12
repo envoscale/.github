@@ -13,7 +13,7 @@
 </defs>
 <rect x="1" y="1" width="142" height="42" rx="10" fill="url(#bg)" stroke="#ffffff" stroke-opacity=".18"/>
 <g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="50" height="44" fill="url(#gl)" transform="skewX(-20)"/></g>
-<g transform="translate(16 12.0) scale(.84)" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><circle cx="8" cy="10.5" r=".6" fill="#fff"/><circle cx="12" cy="10.5" r=".6" fill="#fff"/><circle cx="16" cy="10.5" r=".6" fill="#fff"/></g>
-<text class="s" x="46" y="27.5" font-size="16" font-weight="700" fill="#fff">Discord</text>
-<path d="M122 17.0 l5 5 -5 5" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(14 12.0) scale(.84)" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><circle cx="8" cy="10.5" r=".6" fill="#fff"/><circle cx="12" cy="10.5" r=".6" fill="#fff"/><circle cx="16" cy="10.5" r=".6" fill="#fff"/></g>
+<text class="s" x="42" y="27.0" font-size="15" font-weight="700" fill="#fff">Discord</text>
+<path d="M127 17.5 l4.5 4.5 -4.5 4.5" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
