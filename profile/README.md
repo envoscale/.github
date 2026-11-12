@@ -6,7 +6,7 @@ One language (**Envo**), one toolchain (`envo`) and one standard platform (`envo
 for systems code, scripts, desktop apps, websites, terminals, graphics, AI, cryptography and networking.
 No third-party dependencies. The compiler is bootstrapped from assembly, so the whole chain can be audited.
 
-<a href="https://discord.gg/fzfArKeZaG"><img src="assets/button-discord.svg" alt="Join the Discord" height="56"></a>
+<a href="https://discord.gg/Ev9ZeRVrX5"><img src="assets/button-discord.svg" alt="Join the Discord" height="56"></a>
 &nbsp;
 <a href="https://github.com/orgs/envoscale/projects/3"><img src="assets/button-roadmap.svg" alt="View the Roadmap" height="56"></a>
 
