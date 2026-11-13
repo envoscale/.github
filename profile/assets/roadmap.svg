@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-labelledby="t d">
 <title id="t">EnvoScale roadmap progress</title>
-<desc id="d">Milestones M0 to M13. All are done except M10 (AArch64 and macOS), which is in progress: AArch64 Linux and macOS executables work; the macOS adapters are next.</desc>
+<desc id="d">Milestones M0 to M16. Done: M0 to M9 and M11 to M14. In progress: M10 (AArch64 and macOS), M15 (Envo Studio, the IDE) and M16 (performance: Envo as fast as Rust).</desc>
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
 .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
@@ -10,51 +10,60 @@
 <defs><clipPath id="card"><rect width="840" height="190" rx="12"/></clipPath></defs>
 <g clip-path="url(#card)">
 <rect width="840" height="190" fill="#0d1117"/>
-<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">Roadmap</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">13 of 14 milestones done · now: M10, macOS adapters</text>
+<text class="s" x="28" y="38" font-size="17" font-weight="600" fill="#e6edf3">Roadmap</text><text class="s" x="812" y="38" font-size="13" fill="#8b949e" text-anchor="end">14 of 17 milestones done · now: Envo Studio, and speed</text>
 <defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
-<rect x="28.00" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.00s" x="28.00" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="53.21" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M0</text><text class="s" x="53.21" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Charter</text>
-<rect x="84.43" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.12s" x="84.43" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="109.64" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M1</text><text class="s" x="109.64" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Stage 0</text>
-<rect x="140.86" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.24s" x="140.86" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="166.07" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M2</text><text class="s" x="166.07" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Stage 1</text>
-<rect x="197.29" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.36s" x="197.29" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="222.50" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M3</text><text class="s" x="222.50" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Self-host</text>
-<rect x="253.71" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.48s" x="253.71" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="278.93" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M4</text><text class="s" x="278.93" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Std</text>
-<rect x="310.14" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.60s" x="310.14" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="335.36" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M5</text><text class="s" x="335.36" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Tooling</text>
-<rect x="366.57" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.72s" x="366.57" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="391.79" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M6</text><text class="s" x="391.79" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Script</text>
-<rect x="423.00" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.84s" x="423.00" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="448.21" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M7</text><text class="s" x="448.21" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Net</text>
-<rect x="479.43" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:0.96s" x="479.43" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="504.64" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M8</text><text class="s" x="504.64" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">UI</text>
-<rect x="535.86" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:1.08s" x="535.86" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="561.07" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M9</text><text class="s" x="561.07" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Web</text>
-<rect x="592.29" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<clipPath id="nowc"><rect x="592.29" y="92" width="30.26" height="12" rx="6"/></clipPath><g clip-path="url(#nowc)"><rect class="bar" style="animation-delay:1.2s" x="592.29" y="92" width="30.26" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="552.29" y="92" width="40" height="12" fill="url(#sh)"/></g>
-<g class="here"><path d="M622.54 86 l-6 -9 h12 z" fill="#58a6ff"/></g><text class="s" x="622.54" y="72" font-size="11" fill="#58a6ff" text-anchor="middle">now</text>
-<text class="m" x="617.50" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M10</text><text class="s" x="617.50" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">ARM/mac</text>
-<rect x="648.71" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:1.32s" x="648.71" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="673.93" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M11</text><text class="s" x="673.93" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">3D</text>
-<rect x="705.14" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:1.44s" x="705.14" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="730.36" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M12</text><text class="s" x="730.36" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">AI</text>
-<rect x="761.57" y="92" width="50.43" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" style="animation-delay:1.56s" x="761.57" y="92" width="50.43" height="12" rx="6" fill="#0a7aeb"/>
-<text class="m" x="786.79" y="126" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="middle">M13</text><text class="s" x="786.79" y="144" font-size="10.5" fill="#8b949e" text-anchor="middle">Ecosystem</text>
+<rect x="28.00" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.00s" x="28.00" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="48.71" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M0</text><text class="s" x="48.71" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Charter</text>
+<rect x="74.41" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.10s" x="74.41" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="95.12" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M1</text><text class="s" x="95.12" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Stage 0</text>
+<rect x="120.82" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.20s" x="120.82" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="141.53" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M2</text><text class="s" x="141.53" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Stage 1</text>
+<rect x="167.24" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.30s" x="167.24" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="187.94" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M3</text><text class="s" x="187.94" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Self-host</text>
+<rect x="213.65" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.40s" x="213.65" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="234.35" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M4</text><text class="s" x="234.35" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Std</text>
+<rect x="260.06" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.50s" x="260.06" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="280.76" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M5</text><text class="s" x="280.76" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Tooling</text>
+<rect x="306.47" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.60s" x="306.47" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="327.18" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M6</text><text class="s" x="327.18" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Script</text>
+<rect x="352.88" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.70s" x="352.88" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="373.59" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M7</text><text class="s" x="373.59" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Net</text>
+<rect x="399.29" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.80s" x="399.29" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="420.00" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M8</text><text class="s" x="420.00" y="144" font-size="10" fill="#8b949e" text-anchor="middle">UI</text>
+<rect x="445.71" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:0.90s" x="445.71" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="466.41" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M9</text><text class="s" x="466.41" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Web</text>
+<rect x="492.12" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<clipPath id="p10"><rect x="492.12" y="92" width="24.85" height="12" rx="6"/></clipPath><g clip-path="url(#p10)"><rect class="bar" style="animation-delay:1.00s" x="492.12" y="92" width="24.85" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="452.12" y="92" width="40" height="12" fill="url(#sh)"/></g>
+<text class="m" x="512.82" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M10</text><text class="s" x="512.82" y="144" font-size="10" fill="#8b949e" text-anchor="middle">ARM/mac</text>
+<rect x="538.53" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:1.10s" x="538.53" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="559.24" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M11</text><text class="s" x="559.24" y="144" font-size="10" fill="#8b949e" text-anchor="middle">3D</text>
+<rect x="584.94" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:1.20s" x="584.94" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="605.65" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M12</text><text class="s" x="605.65" y="144" font-size="10" fill="#8b949e" text-anchor="middle">AI</text>
+<rect x="631.35" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:1.30s" x="631.35" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="652.06" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M13</text><text class="s" x="652.06" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Ecosystem</text>
+<rect x="677.76" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<rect class="bar" style="animation-delay:1.40s" x="677.76" y="92" width="41.41" height="12" rx="6" fill="#0a7aeb"/>
+<text class="m" x="698.47" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M14</text><text class="s" x="698.47" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Apps</text>
+<rect x="724.18" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<clipPath id="p15"><rect x="724.18" y="92" width="8.28" height="12" rx="6"/></clipPath><g clip-path="url(#p15)"><rect class="bar" style="animation-delay:1.50s" x="724.18" y="92" width="8.28" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="684.18" y="92" width="40" height="12" fill="url(#sh)"/></g>
+<text class="m" x="744.88" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M15</text><text class="s" x="744.88" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Studio</text>
+<rect x="770.59" y="92" width="41.41" height="12" rx="6" fill="#21262d"/>
+<clipPath id="p16"><rect x="770.59" y="92" width="8.00" height="12" rx="6"/></clipPath><g clip-path="url(#p16)"><rect class="bar" style="animation-delay:1.60s" x="770.59" y="92" width="8.00" height="12" rx="6" fill="#58a6ff"/><rect class="shine" x="730.59" y="92" width="40" height="12" fill="url(#sh)"/></g>
+<g class="here"><path d="M791.29 86 l-6 -9 h12 z" fill="#58a6ff"/></g><text class="s" x="791.29" y="72" font-size="11" fill="#58a6ff" text-anchor="middle">now</text>
+<text class="m" x="791.29" y="126" font-size="11.5" font-weight="600" fill="#e6edf3" text-anchor="middle">M16</text><text class="s" x="791.29" y="144" font-size="10" fill="#8b949e" text-anchor="middle">Speed</text>
 <text class="s" x="28" y="174" font-size="12" fill="#8b949e"><tspan fill="#0a7aeb">■</tspan> done   <tspan fill="#58a6ff">■</tspan> in progress</text>
 </g>
 <rect x="0.5" y="0.5" width="839" height="189" rx="12" fill="none" stroke="#30363d"/>

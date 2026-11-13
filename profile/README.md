@@ -1,9 +1,12 @@
 <div align="center">
 
-### One environment, every platform, built from the first byte up.
+<img src="assets/wordmark.svg" alt="EnvoScale" width="400">
 
-One language, one toolchain and one standard platform for systems code, apps, websites,
-graphics, AI and networking. No third-party code anywhere.
+### One language for everything you build.
+
+Envo is a programming language, and EnvoScale is everything around it in one place: the
+compiler, the standard library and the `envo` tool. Command-line programs, servers, apps,
+websites, graphics and AI, with no third-party code anywhere.
 
 <a href="https://discord.gg/Ev9ZeRVrX5"><img src="assets/btn-discord.svg" alt="Join the Discord" width="144" height="44"></a> <a href="https://github.com/orgs/envoscale/projects/3"><img src="assets/btn-roadmap.svg" alt="View the roadmap" width="144" height="44"></a>
 
@@ -56,7 +59,9 @@ rendered by its own libraries.
 
 A seed of readable hex builds an assembler, which builds a compiler written in assembly.
 Each later compiler is written in more of Envo and built by the one before it, until the
-compiler builds itself.
+compiler builds itself. That chain lives in
+[EnvoScaleAsm](https://github.com/envoscale/EnvoScaleAsm), whose CI publishes the seed
+compiler EnvoScale starts from, only when Linux and Windows built the same bytes.
 
 <p align="center">
   <img src="assets/bootstrap.svg" alt="The bootstrap ladder: hex seed, Stage 0, Stage 1, Stage 2 and the fixed point, all done" width="840">
@@ -70,6 +75,16 @@ compiler builds itself.
 | **Toolchain** | one `envo` binary: new, run, build, test, check, fmt, debugger, profiler, fuzzer, REPL, language server, signed packages |
 | **Platform** | files and processes, HTTP and TLS, JSON, websites, native and terminal UI, 2D, fonts, 3D with glTF, local AI models, crypto |
 | **Trust** | W^X and ASLR, fuzzed parsers, sandboxed scripts, reproducible and signed releases with SBOMs |
+
+## Repositories
+
+| | |
+|---|---|
+| [EnvoScale](https://github.com/envoscale/EnvoScale) | The compiler, the standard library and the `envo` tool. [Download a release](https://github.com/envoscale/EnvoScale/releases) |
+| [EnvoScaleAsm](https://github.com/envoscale/EnvoScaleAsm) | The compiler built up from assembly, and the seed it makes |
+
+In the works: Envo Studio, an IDE written in Envo, and making Envo's generated code as
+fast as Rust's.
 
 ## Progress
 
