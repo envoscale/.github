@@ -84,7 +84,7 @@ compiler EnvoScale starts from, only when Linux and Windows built the same bytes
 | [EnvoScale](https://github.com/envoscale/EnvoScale) | The compiler, the standard library and the `envo` tool. [Download a release](https://github.com/envoscale/EnvoScale/releases) |
 | [EnvoScaleAsm](https://github.com/envoscale/EnvoScaleAsm) | The compiler built up from assembly, and the seed it makes |
 
-In the works: Envol Studio, an IDE written in Envol, and making Envol's generated code as
+In the works: Envide, an IDE written in Envol, and making Envol's generated code as
 fast as Rust's.
 
 ## Progress
