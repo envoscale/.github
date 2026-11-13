@@ -35,7 +35,7 @@
 <g class="all">
 <text class="m" x="28" y="72" font-size="15" textLength="144" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">envo new greet</tspan></text>
 <g class="c0"><rect x="28" y="54" width="840" height="26" fill="#0d1117"/><rect class="c0c" x="28" y="57" width="9" height="19" fill="#58a6ff"/></g>
-<text class="m o1" x="28" y="99" font-size="15" textLength="666" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">created package </tspan><tspan fill="#e6edf3">greet</tspan><tspan fill="#8b949e">: envo.envon, main.envo, greet.envo, tests/greet.envo</tspan></text>
+<text class="m o1" x="28" y="99" font-size="15" textLength="666" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">created package </tspan><tspan fill="#e6edf3">greet</tspan><tspan fill="#8b949e">: envo.envon, main.envol, greet.envol, tests/greet.envol</tspan></text>
 <text class="m" x="28" y="126" font-size="15" textLength="144" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">envo run greet</tspan></text>
 <g class="c2"><rect x="28" y="108" width="840" height="26" fill="#0d1117"/><rect class="c2c" x="28" y="111" width="9" height="19" fill="#58a6ff"/></g>
 <text class="m o3" x="28" y="153" font-size="15" textLength="117" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#3fb950">Hello, greet!</tspan></text>
