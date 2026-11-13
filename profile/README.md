@@ -143,5 +143,5 @@ compiler written in both, and EnvOS.
   <img src="assets/roadmap.svg" alt="Roadmap: all milestones done except M10, AArch64 and macOS, in progress" width="840">
 </p>
 
-Free for noncommercial use under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/);
-commercial use needs a commercial license.
+Apache-2.0: free for any use, including commercial. The documentation is CC BY 4.0, and
+the names and logo follow the [trademark policy](https://github.com/envoscale/EnvoScale/blob/main/legal/trademarks.md).
