@@ -1,7 +1,7 @@
+<img src="assets/experimental.svg" alt="Experimental: this project is an experiment, built with heavy use of AI. While it is early, some functionality may not work as intended." width="100%">
+
 <div align="center">
 <img src="assets/wordmark.svg" alt="EnvoScale"  align="center" width="400">
-
-<img src="assets/experimental.svg" alt="Experimental: this project is an experiment, built with heavy use of AI. While it is early, some functionality may not work as intended." width="100%">
 
 ### One language for everything you build.
 
