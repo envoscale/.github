@@ -1,6 +1,5 @@
-<div align="center">
-
 <img src="assets/wordmark.svg" alt="EnvoScale" width="400">
+<div align="center">
 
 ### One language for everything you build.
 
